@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/vectores/Vector.svg" type="image/x-icon">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Swiper CSS libreria leer la documentacion por si las dudas crack -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/page.css" />
+
+    <title>HYDRA VR</title>
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Header -->
+
+    <div class="preloader">
+
+      <img class="preloader--image" src="./img/vectores/Vector.svg" alt="" />
+
+    </div>
+
+    <header class="header">
+      <div class="header-logo">
+        <img src="./img/vectores/Vector.svg" alt="" />
+        <h1 class="title">HYDRA</h1>
+      </div>
+
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#nosotros" class="nav-link">SOBRE NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#why" class="nav-link">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tecnologias" class="nav-link">TECNOLOGÍAS</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/productos.html" class="nav-link">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#como" class="nav-link">CÓMO HACERLO</a>
+          </li>
+          <i id="close" class="bx bx-x bx-tada" style="color: #c0b7e8"></i>
+        </ul>
+      </nav>
+
+      <div class="header-contact">
+        <a class="social-link" href="#footer">CONTÁCTANOS</a>
+
+        <button class="contact-button" onclick="window.location.href='#form'">UNETE A HYDRA</button>
+      </div>
+      <i id="menu-btn" class="bx bx-menu bx-tada" style="color: #c0b7e8"></i>
+    </header>
+    <!-- Principal main -->
+    <main>
+      <!-- First Section -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-content" data-aos="zoom-in">
+            <h2 class="hero-title">
+              <span>Sumergete</span> en las profundidades <br />
+              de
+              <span>Realidad Virtual</span>
+            </h2>
+            <p class="hero-description">
+              Unos lentes de realidad virtual que te permiten explorar y <br />
+              experimentar entornos virtuales de manera inmersiva y <br />
+              emocionante.
+            </p>
+
+            <a href="./pages/productos.html" class="hero-link">CONSTRÚYE TU MUNDO</a>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="./img/about.png"
+              alt=""
+              class="hero-image-src"
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+            />
+
+            <svg
+              class="l1"
+              width="383"
+              height="846"
+              viewBox="0 0 383 846"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.19293 0C-0.0879101 140.127 37.2087 433.314 212.642 485.053C388.075 536.792 391.776 746.576 371.697 845"
+                stroke="url(#paint0_linear_1_24)"
+                stroke-width="6"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_24"
+                  x1="16.5"
+                  y1="39.5"
+                  x2="363"
+                  y2="814"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0.0104167" stop-color="#343045" />
+                  <stop offset="0.229167" stop-color="#C0B7E8" />
+                  <stop offset="0.776042" stop-color="#8176AF" />
+                  <stop offset="1" stop-color="#343045" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg
+              class="l2"
+              width="736"
+              height="423"
+              viewBox="0 0 736 423"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M738.5 4.5C491.667 -7.66666 -0.900015 58.9 3.49999 422.5"
+                stroke="url(#paint0_linear_2_33)"
+                stroke-width="6"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_2_33"
+                  x1="700.5"
+                  y1="-3.99998"
+                  x2="14.5"
+                  y2="361"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#343045" />
+                  <stop offset="0.213542" stop-color="#C0B7E8" />
+                  <stop offset="0.71875" stop-color="#8176AF" />
+                  <stop offset="1" stop-color="#343045" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <svg
+              class="l3"
+              width="416"
+              height="675"
+              viewBox="0 0 416 675"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M415 3C325.774 17.8434 155.913 102.224 190.271 320.998C224.63 539.772 78.4065 646.155 1 672"
+                stroke="url(#paint0_linear_1_23)"
+                stroke-width="6"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_23"
+                  x1="365.5"
+                  y1="28"
+                  x2="110"
+                  y2="594"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#343045" />
+                  <stop offset="0.276042" stop-color="#8176AF" />
+                  <stop offset="0.739583" stop-color="#C0B7E8" />
+                  <stop offset="1" stop-color="#343045" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <!-- Contact Info -->
+        <div class="contact-info swiper" data-aos="zoom-in">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide contact-method">
+              <i class="bx bxs-location-plus"></i>
+              <div class="contact-details">
+                <h3>Visítanos</h3>
+                <a
+                  href="https://www.google.com/maps?q=F2M9%2B5X2%2C+Cusco+08002
+                "
+                  target="_blank"
+                  >Plaza de Armas, Cusco Peru</a
+                >
+              </div>
+            </div>
+
+            <div class="swiper-slide contact-method mid">
+              <i class="bx bx-phone-call"></i>
+              <div class="contact-details">
+                <h3>Llámanos</h3>
+                <a href="https://wa.me/+51943493876" target="_blank"
+                  >+51943493876</a
+                >
+              </div>
+            </div>
+
+            <div class="swiper-slide contact-method">
+              <i class="bx bx-message"></i>
+              <div class="contact-details">
+                <h3>Envíanos un mensaje</h3>
+                <a href="mailto:Contact@HydraVTech.com"
+                  >Contact@HydraVTech.com</a
+                >
+              </div>
+            </div>
+            <div class="swiper-slide contact-method mid">
+              <i class="bx bx-phone-call"></i>
+              <div class="contact-details">
+                <h3>Llámanos</h3>
+                <a href="https://wa.me/+51943493876" target="_blank"
+                  >+51943493876</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section class="about-section" id="nosotros">
+        <div class="about-intro">
+          <div class="about-card" data-aos="zoom-in">
+            <h2 class="about-title">INTRODUCCION</h2>
+            <div class="about-subtitle">
+              <h2>A HYDRA VR</h2>
+              <svg
+                width="228"
+                height="100"
+                viewBox="0 0 228 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M198.833 50L157.167 50M198.833 50L182.167 66.6666M198.833 50L182.167 33.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path d="M157.5 50H0" stroke="#C0B7E8" stroke-width="3" />
+              </svg>
+            </div>
+          </div>
+          <p class="about-description" data-aos="zoom-in">
+            Descubre la revolución en realidad virtual con Hydra VR, donde la
+            innovación y la inmersión se encuentran. Sumérgete en experiencias
+            únicas y envolventes que desafían los límites de la realidad. Con
+            tecnología de vanguardia y un enfoque en la calidad, Hydra VR te
+            lleva más allá de lo ordinario hacia lo extraordinario. Prepárate
+            para explorar un universo de posibilidades sin límites.
+          </p>
+        </div>
+
+        <div class="about-image">
+          <img
+            src="./img/pexels-shvets-production-7562014 1.png"
+            alt="VR"
+            data-aos="zoom-in"
+          />
+          <div class="about-content">
+            <h2 class="about-title" data-aos="zoom-in">SOBRE</h2>
+            <h2 class="about-subtitle" data-aos="zoom-in">HYDRA VR</h2>
+            <p class="about-description" data-aos="zoom-in">
+              En Hydra VR, nos dedicamos a ofrecer experiencias de realidad
+              virtual de alta calidad. Nuestro objetivo es brindar a nuestros
+              usuarios una inmersión total en mundos virtuales que desafían los
+              límites de la imaginación. Creemos que la realidad virtual tiene
+              el poder de transformar la manera en que interactuamos con el
+              entorno digital. Con tecnologías avanzadas y un equipo apasionado,
+              estamos comprometidos a crear experiencias únicas y memorables
+              para todos. Únete a nosotros en esta emocionante aventura y
+              descubre lo que la realidad virtual puede ofrecer.
+            </p>
+            <a href="#form" class="about-link">MANTENGÁMONOS EN CONTACTO </a>
+          </div>
+        </div>
+      </section>
+      <!-- section 3 -->
+      <section class="why-build-section" id="why">
+        <div class="why-build-intro">
+          <div class="why-build-card" data-aos="zoom-in">
+            <h2 class="why-build-title">POR QUÉ CONSTRUIRLO</h2>
+
+            <div class="why-build-subtitle">
+              <h2>CON HYDRA?</h2>
+              <svg
+                width="228"
+                height="100"
+                viewBox="0 0 228 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M198.833 50L157.167 50M198.833 50L182.167 66.6666M198.833 50L182.167 33.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path d="M157.5 50H0" stroke="#C0B7E8" stroke-width="3" />
+              </svg>
+            </div>
+          </div>
+
+          <p class="why-build-description" data-aos="zoom-in">
+            Explora las ventajas de utilizar HYDRA para tus proyectos de
+            realidad virtual. Con nuestra tecnología avanzada, podrás diseñar
+            entornos más inmersivos y eficientes. Aprovecha nuestras
+            herramientas para mejorar la interacción y el impacto visual.
+            Descubre cómo nuestra plataforma facilita el desarrollo y ofrece
+            resultados excepcionales.
+          </p>
+        </div>
+        <!-- CARDS -->
+
+        <div class="simulation-grid">
+          <div
+            class="simulation-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="simulation-image">
+              <img src="./img/why.png" alt="" />
+            </div>
+
+            <h3 class="simulation-title">SIMULACION</h3>
+            <div class="simulation-divider">______</div>
+
+            <p class="simulation-description">
+              Descubre Hydra VR, la revolución en realidad virtual con
+              innovadoras simulaciones realistas. Sumérgete en experiencias
+              inmersivas y detalladas como nunca antes.
+            </p>
+
+            <a href="./pages/productos.html" class="simulation-link">PRUEBALO AHORA</a>
+          </div>
+
+          <div
+            class="simulation-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="simulation-image">
+              <img src="./img/why2.png" alt="" />
+            </div>
+
+            <h3 class="simulation-title">EDUCACION</h3>
+            <div class="simulation-divider">______</div>
+
+            <p class="simulation-description">
+              Descubre Hydra VR, la revolución en realidad virtual con
+              aplicaciones innovadoras en educación. Sumérgete en experiencias
+              de aprendizaje inmersivas y detalladas.
+            </p>
+
+            <a href="./pages/productos.html" class="simulation-link">PRUEBALO AHORA</a>
+          </div>
+
+          <div
+            class="simulation-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="simulation-image">
+              <img src="./img/why3.png" alt="" />
+            </div>
+
+            <h3 class="simulation-title">CUIDADO PERSONAL</h3>
+            <div class="simulation-divider">______</div>
+
+            <p class="simulation-description">
+              Descubre Hydra VR, la revolución en realidad virtual con
+              aplicaciones innovadoras en cuidado personal. Sumérgete en
+              experiencias de bienestar y relajación inmersivas.
+            </p>
+
+            <a href="./pages/productos.html" class="simulation-link">PRUEBALO AHORA</a>
+          </div>
+
+          <div
+            class="simulation-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="simulation-image">
+              <img src="./img/why4.png" alt="" />
+            </div>
+
+            <h3 class="simulation-title">AL AIRE LIBRE</h3>
+            <div class="simulation-divider">______</div>
+
+            <p class="simulation-description">
+              Descubre Hydra VR, la revolución en realidad virtual con
+              aplicaciones innovadoras para actividades al aire libre. Sumérgete
+              en experiencias inmersivas de aventura y exploración.
+            </p>
+
+            <a href="./pages/productos.html" class="simulation-link">PRUEBALO AHORA</a>
+          </div>
+        </div>
+      </section>
+      <!-- section 4 -->
+
+      <section class="tech-section" id="tecnologias">
+        <div class="tech-section-container">
+          <div
+            class="tech-section-box"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <h3 class="tech-section-title">TECNOLOGIAS Y HARDWARE</h3>
+            <h3 class="tech-section-subtitle">USADO POR HYDRA VR</h3>
+          </div>
+          <div class="tech-section-images-container">
+            <img
+              class="tech-section-image"
+              src="./img/vectores/unreal.svg"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+            />
+            <img
+              class="tech-section-image"
+              src="./img/vectores/unite.svg"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+            />
+            <img
+              class="tech-section-image"
+              src="./img/vectores/oculus.svg"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+            />
+            <img
+              class="tech-section-image"
+              src="./img/vectores/vive.svg"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- section 5 -->
+      <section class="how-build-section" id="como">
+        <div
+          class="how-build-intro"
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+        >
+          <div class="how-build-card">
+            <h2 class="how-build-title">CÓMO CONSTRUIR</h2>
+
+            <div class="how-build-subtitle">
+              <h2>CON HYDRA?</h2>
+              <svg
+                width="228"
+                height="100"
+                viewBox="0 0 228 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M198.833 50L157.167 50M198.833 50L182.167 66.6666M198.833 50L182.167 33.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path d="M157.5 50H0" stroke="#C0B7E8" stroke-width="3" />
+              </svg>
+            </div>
+          </div>
+
+          <p class="how-build-description">
+            Descubre cómo diseñar y construir experiencias inmersivas usando
+            HYDRA. Aprende a aprovechar nuestras herramientas avanzadas para
+            desarrollar entornos virtuales únicos. Conoce los pasos esenciales
+            para integrar elementos interactivos y crear un impacto memorable.
+            Sigue nuestras recomendaciones para maximizar la calidad y la
+            efectividad de tus proyectos en VR.
+          </p>
+        </div>
+        <!-- circle -->
+        <div class="how-circle-container">
+          <div
+            class="how-circle-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="how-circle-box1">
+              <div class="how-circle-number">01</div>
+            </div>
+
+            <div class="how-circle-box2">
+              <svg
+                width="67"
+                height="67"
+                viewBox="0 0 67 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M47.4584 33.4999L19.5417 33.4999M47.4584 33.4999L36.2917 44.6666M47.4584 33.4999L36.2917 22.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <p class="how-circle-text">Concepción 3D</p>
+              
+            </div>
+            <p class="how-circle-subtext">& Diseño</p>
+            
+          </div>
+
+          <div
+            class="how-circle-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="how-circle-box1">
+              <div class="how-circle-number">02</div>
+            </div>
+
+            <div class="how-circle-box2">
+              <svg
+                width="67"
+                height="67"
+                viewBox="0 0 67 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M47.4584 33.4999L19.5417 33.4999M47.4584 33.4999L36.2917 44.6666M47.4584 33.4999L36.2917 22.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <p class="how-circle-text">Interaccion</p>
+            </div>
+            <p class="how-circle-subtext">Diseño</p>
+          </div>
+
+          <div
+            class="how-circle-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="how-circle-box1">
+              <div class="how-circle-number">03</div>
+            </div>
+
+            <div class="how-circle-box2">
+              <svg
+                width="67"
+                height="67"
+                viewBox="0 0 67 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M47.4584 33.4999L19.5417 33.4999M47.4584 33.4999L36.2917 44.6666M47.4584 33.4999L36.2917 22.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <p class="how-circle-text">Mundo VR</p>
+            </div>
+            <p class="how-circle-subtext">Pruebas de usuario</p>
+          </div>
+
+          <div
+            class="how-circle-card"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <div class="how-circle-box1">
+              <div class="how-circle-number">04</div>
+            </div>
+
+            <div class="how-circle-box2">
+              <svg
+                width="67"
+                height="67"
+                viewBox="0 0 67 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M47.4584 33.4999L19.5417 33.4999M47.4584 33.4999L36.2917 44.6666M47.4584 33.4999L36.2917 22.3333"
+                  stroke="#C0B7E8"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <p class="how-circle-text">Hydra VR</p>
+            </div>
+            <p class="how-circle-subtext">& Diseño</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- form  -->
+      <section class="join-section" id="form">
+        <div class="join-container" data-aos="zoom-in" data-aos-duration="1200">
+          <h2 class="join-title">ÚNETE A HYDRA</h2>
+          <p class="join-subtitle">¡Vamos a construir tu experiencia de VR!</p>
+          <form id="join-form" class="join-form-container" action="">
+            <input
+              class="join-form-input"
+              type="text"
+              placeholder="Nombres"
+              id="nombres"
+              required
+              autocomplete="off"
+            />
+            <input
+              class="join-form-input"
+              type="text"
+              placeholder="Apellidos"
+              id="apellidos"
+              required
+              autocomplete="off"
+            />
+            <input
+              class="join-form-input"
+              type="email"
+              placeholder="Email"
+              id="email"
+              autocomplete="off"
+            />
+            <input
+              class="join-form-input"
+              type="tel"
+              placeholder="Celular"
+              id="celular"
+              pattern="[0-9]*"
+              inputmode="numeric"
+              required
+              autocomplete="off"
+            />
+            <input
+              class="join-form-input"
+              type="text"
+              placeholder="Ciudad"
+              id="ciudad"
+              required
+              autocomplete="off"
+            />
+            <textarea
+              name="textarea"
+              id="mensaje"
+              placeholder="Mensaje"
+            ></textarea>
+            <div>
+              <input type="submit" value="ENVIAR" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <img src="./img/vectores/Vector.svg" alt="Logo" data-aos="zoom-in" />
+
+        <div class="footer__links" data-aos="zoom-in" data-aos-duration="1200">
+          <a class="footer__link" href="#nosotros">SOBRE NOSOTROS</a>
+          <a class="footer__link" href="#why">SERVICIOS</a>
+          <a class="footer__link" href="#tecnologias">TECNOLOGIAS</a>
+          <a class="footer__link" href="#como">COMO HACERLO</a>
+          <a class="footer__link" href="#footer">UNETE A HYDRA</a>
+        </div>
+
+        <div class="footer__links" data-aos="zoom-in" data-aos-duration="1200">
+          <a class="footer__link" id="faq" href="">F.A.Q</a>
+          <a
+            class="footer__link"
+            href="https://www.google.com/maps?q=F2M9%2B5X2%2C+Cusco+08002"
+            target="_blank"
+            >MAPA DEL SITIO</a
+          >
+          <a
+            class="footer__link"
+            href="./pages/condiciones.html"
+            target="_blank"
+            >CONDICIONES</a
+          >
+          <a class="footer__link" href="./pages/licencia.html" target="_blank"
+            >LICENCIA</a
+          >
+        </div>
+
+        <div class="footer__social" data-aos="zoom-in" data-aos-duration="1200">
+          <p class="footer__social-text">SOCIALIZE WITH HYDRA</p>
+
+          <div class="footer__social-icons">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM16 8C20.4 8 24 11.6 24 16C24 20 21.1 23.4 17.1 24V18.3H19L19.4 16H17.2V14.5C17.2 13.9 17.5 13.3 18.5 13.3H19.5V11.3C19.5 11.3 18.6 11.1 17.7 11.1C15.9 11.1 14.7 12.2 14.7 14.2V16H12.7V18.3H14.7V23.9C10.9 23.3 8 20 8 16C8 11.6 11.6 8 16 8Z"
+                fill="#C0B7E8"
+              />
+            </svg>
+
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM22.1 11.5C22.8 11.4 23.4 11.3 24 11C23.6 11.7 23 12.3 22.3 12.7C22.5 17.4 19.1 22.5 13 22.5C11.2 22.5 9.5 21.9 8 21C9.7 21.2 11.5 20.7 12.7 19.8C11.2 19.8 10 18.8 9.6 17.5C10.1 17.6 10.6 17.5 11.1 17.4C9.6 17 8.5 15.6 8.5 14.1C9 14.3 9.5 14.5 10 14.5C8.6 13.5 8.1 11.6 9 10.1C10.7 12.1 13.1 13.4 15.8 13.5C15.3 11.5 16.9 9.5 19 9.5C19.9 9.5 20.8 9.9 21.4 10.5C22.2 10.3 22.9 10.1 23.5 9.7C23.3 10.5 22.8 11.1 22.1 11.5Z"
+                fill="#C0B7E8"
+              />
+            </svg>
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM8.2 13.3V24H11.6V13.3H8.2ZM8 9.9C8 11 8.8 11.8 9.9 11.8C11 11.8 11.8 11 11.8 9.9C11.8 8.8 11 8 9.9 8C8.9 8 8 8.8 8 9.9ZM20.6 24H23.8V17.4C23.8 14.1 21.8 13 19.9 13C18.2 13 17 14.1 16.7 14.8V13.3H13.5V24H16.9V18.3C16.9 16.8 17.9 16 18.9 16C19.9 16 20.6 16.5 20.6 18.2V24Z"
+                fill="#C0B7E8"
+              />
+            </svg>
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M18.6 16L14.4 13.6V18.4L18.6 16Z" fill="#C0B7E8" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM22.2 10.7C22.9 10.9 23.4 11.4 23.6 12.1C24 13.4 24 16 24 16C24 16 24 18.6 23.7 19.9C23.5 20.6 23 21.1 22.3 21.3C21 21.6 16 21.6 16 21.6C16 21.6 10.9 21.6 9.7 21.3C9 21.1 8.5 20.6 8.3 19.9C8 18.6 8 16 8 16C8 16 8 13.4 8.2 12.1C8.4 11.4 8.90001 10.9 9.60001 10.7C10.9 10.4 15.9 10.4 15.9 10.4C15.9 10.4 21 10.4 22.2 10.7Z"
+                fill="#C0B7E8"
+              />
+            </svg>
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 18.8C14.5 18.8 13.2 17.6 13.2 16C13.2 14.5 14.4 13.2 16 13.2C17.5 13.2 18.8 14.4 18.8 16C18.8 17.5 17.5 18.8 16 18.8Z"
+                fill="#C0B7E8"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19.4 9.2H12.6C11.8 9.3 11.4 9.4 11.1 9.5C10.7 9.6 10.4 9.8 10.1 10.1C9.86261 10.3374 9.75045 10.5748 9.61489 10.8617C9.57916 10.9373 9.5417 11.0166 9.5 11.1C9.48453 11.1464 9.46667 11.1952 9.44752 11.2475C9.34291 11.5333 9.2 11.9238 9.2 12.6V19.4C9.3 20.2 9.4 20.6 9.5 20.9C9.6 21.3 9.8 21.6 10.1 21.9C10.3374 22.1374 10.5748 22.2495 10.8617 22.3851C10.9374 22.4209 11.0165 22.4583 11.1 22.5C11.1464 22.5155 11.1952 22.5333 11.2475 22.5525C11.5333 22.6571 11.9238 22.8 12.6 22.8H19.4C20.2 22.7 20.6 22.6 20.9 22.5C21.3 22.4 21.6 22.2 21.9 21.9C22.1374 21.6626 22.2495 21.4252 22.3851 21.1383C22.4209 21.0626 22.4583 20.9835 22.5 20.9C22.5155 20.8536 22.5333 20.8048 22.5525 20.7525C22.6571 20.4667 22.8 20.0762 22.8 19.4V12.6C22.7 11.8 22.6 11.4 22.5 11.1C22.4 10.7 22.2 10.4 21.9 10.1C21.6626 9.86261 21.4252 9.75045 21.1383 9.61488C21.0627 9.57918 20.9833 9.54167 20.9 9.5C20.8536 9.48453 20.8048 9.46666 20.7525 9.44752C20.4667 9.3429 20.0762 9.2 19.4 9.2ZM16 11.7C13.6 11.7 11.7 13.6 11.7 16C11.7 18.4 13.6 20.3 16 20.3C18.4 20.3 20.3 18.4 20.3 16C20.3 13.6 18.4 11.7 16 11.7ZM21.4 11.6C21.4 12.1523 20.9523 12.6 20.4 12.6C19.8477 12.6 19.4 12.1523 19.4 11.6C19.4 11.0477 19.8477 10.6 20.4 10.6C20.9523 10.6 21.4 11.0477 21.4 11.6Z"
+                fill="#C0B7E8"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM12.6 7.7H19.4C20.3 7.8 20.9 7.9 21.4 8.1C22 8.4 22.4 8.6 22.9 9.1C23.4 9.6 23.7 10.1 23.9 10.6C24.1 11.1 24.3 11.7 24.3 12.6V19.4C24.2 20.3 24.1 20.9 23.9 21.4C23.6 22 23.4 22.4 22.9 22.9C22.4 23.4 21.9 23.7 21.4 23.9C20.9 24.1 20.3 24.3 19.4 24.3H12.6C11.7 24.2 11.1 24.1 10.6 23.9C10 23.6 9.6 23.4 9.1 22.9C8.6 22.4 8.3 21.9 8.1 21.4C7.9 20.9 7.7 20.3 7.7 19.4V12.6C7.8 11.7 7.9 11.1 8.1 10.6C8.4 10 8.6 9.6 9.1 9.1C9.6 8.6 10.1 8.3 10.6 8.1C11.1 7.9 11.7 7.7 12.6 7.7Z"
+                fill="#C0B7E8"
+              />
+            </svg>
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM8 16C8 11.6 11.6 8 16 8C20.4 8 24 11.6 23.9 15.6C23.9 20 20.3 23.6 15.9 23.6C15.1 23.6 14.3 23.5 13.6 23.3C13.9 22.8 14.2 22.2 14.4 21.6C14.5 21.2 15 19.4 15 19.4C15.3 19.9 16.1 20.4 17 20.4C19.6 20.4 21.3 18 21.3 14.9C21.3 12.5 19.3 10.3 16.2 10.3C12.4 10.3 10.5 13 10.5 15.3C10.5 16.7 11 17.9 12.1 18.4C12.3 18.5 12.4 18.4 12.5 18.2C12.6 18.1 12.7 17.7 12.7 17.6C12.7707 17.4586 12.7414 17.4172 12.6828 17.3343C12.6586 17.3 12.6293 17.2586 12.6 17.2C12.3 16.8 12.1 16.3 12.1 15.6C12.1 13.6 13.6 11.8 16 11.8C18.1 11.8 19.3 13.1 19.3 14.9C19.3 17.3 18.3 19.2 16.8 19.2C15.9 19.2 15.3 18.5 15.5 17.7C15.5835 17.2826 15.7192 16.8477 15.8491 16.4318C16.0303 15.8514 16.2 15.3078 16.2 14.9C16.2 14.2 15.8 13.7 15.1 13.7C14.3 13.7 13.6 14.6 13.6 15.8C13.6 16.6 13.9 17.1 13.9 17.1C13.9 17.1 13.1 20.8 12.9 21.5C12.8 22.1 12.8 22.6999 12.8 23.2999C10 22.0999 8 19.3 8 16Z"
+                fill="#C0B7E8"
+              />
+            </svg>
+          </div>
+          <button class="footer__button " onclick="window.location.href='./pages/productos.html'">CONSTRUYE TU MUNDO</button>
+        </div>
+      </div>
+
+      <div class="footer__divider"></div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          © 2024 Hydra VR - Innovación en Realidad Virtual. Creado por Niels Y. Jorge. Todos los derechos reservados.
+      </p>
+      
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="./js/page.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
